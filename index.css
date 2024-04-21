@@ -1,0 +1,160 @@
+body
+{
+    margin:0;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cabeçalho
+{
+    font-family:sans;
+    background-image:url("imagem/imagen1.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+
+    box-sizing:content-box;
+
+    width:100%;
+    height:100vh;
+    color:white;
+}
+.div_div_1  p
+{
+    margin-left:60px; margin-right:60px;
+}
+.p1
+{
+    float:left; 
+}
+
+.p2
+{
+    float:right;
+     border-bottom:2px solid #6ae4af;
+}
+.p2:hover{cursor:pointer;}
+h1
+{
+    text-align:center;
+    font-size:52px;
+    font-weight:900;
+}
+
+.div_div_2{
+
+    padding-top:5px;
+    clear:both;
+}
+h1 u
+{
+    text-decoration:none;
+    border-bottom:3px solid #00ff90;
+
+}
+
+.cabeçalho button
+{
+    width:180px;    
+    color:#111010;
+
+    font-size:20px;
+    padding:19px 25px;
+    font-weight:bolder;
+    border-color:transparent;
+    background-color:#2ade86;
+   
+    
+    margin-left: 40%;
+    margin-right: auto;
+}
+
+
+/* Codigo CSS do projecto*/
+
+.corpo
+{
+    margin:80px 26px;
+}
+.corpo h2, p {text-align:center;}
+
+.circulo
+{
+    padding:18px 23px;
+     display:inline-block; 
+     border:2px solid black;
+      border-radius:50px;
+     text-align:center;
+     margin:20px 12.5vw;
+}
+
+
+.dv_um
+{
+    
+    width:300px;
+    height:300px;
+    display:inline-block;
+    
+    //background:linear-gradient(to top,#3649b6 ,#ff0000)
+}
+ 
+.penurtimo
+{
+    margin:0;
+    width:100%;
+    height:100vh;
+
+    background-repeat:no-repeat;
+    background-size:contain;
+
+    background-image:url("imagem/corretaimagem.jpg");
+}
+
+.pr_ {
+    
+    width:50%;
+    
+    height:75%;
+     word-wrap:break-word;
+
+     padding:45px;
+    margin-left:33.55%;
+    margin-top:18%;
+     
+   color:white;
+   text-align:left;
+    
+
+ background-image:url("imagem/seila.png");
+ background-repeat:no-repeat;
+ background-size:contain;
+}
+
+.pr_ p, h2{text-align:left; padding-left:7px;}
+
+.pr_ button
+{
+    padding:10px 15px;
+
+    width:200px;    
+    color:#111010;
+
+    font-size:20px;
+    font-weight:bolder;
+    border-color:transparent;
+    background-color:#2ade86;
+    margin-left:10px;
+}
+
+
+/*  rodape do projecto  -------------------- */
+
+footer{ clear:both;}
+.workit{text-align:center; color:#808080;}
+footer strong{ font-size:24px; text-align:center;}
+
+.redesocial{margin-left:42%; }
+
+.redesocial img{ padding-left: 20px; }
+
+.img_link{text-decoration:none;}
